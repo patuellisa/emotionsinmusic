@@ -17,10 +17,10 @@
 </head>
 <body>
 	<header>
-			<nav class="navbar navbar-expand-lg navbar-dark bg-lightpink" style="background-color: lightpink;">
+			<nav class="navbar navbar-expand-lg navbar-light bg-lightpink" style="background-color: lightpink;">
 			  <div class="container-md">
-			   <p id="nav">emotions in music</p>	
-			    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			   <p id="nav" onclick="window.location.href='index.html'">emotions in music</p>	
+			    <div class="collapse navbar-collapse justify-content-left" style="margin-left: 30px" id="navbarNav">
 			      <ul class="navbar-nav">
 			        <li class="nav-item">
 			          <a class="nav-link custom_list_item span" href="index.html">HOME</a>
@@ -35,32 +35,38 @@
 			    </div>
 			  </div>
 			</nav>
+			<nav aria-label="breadcrumb">
+		  		<ol class="breadcrumb justify-content-end" style="margin-right: 30px;">
+		    	<li class="breadcrumb-item">HOME</a></li>
+		        <li class="breadcrumb-item active" aria-current="page">PLAYLIST</li>
+		 		</ol>
+			</nav>
 		</header>
 		   <main>
 			  <div id="carouselExampleFade" class="carousel slide carousel-fade carosello" data-bs-ride="carousel">
-		  	<div class="carousel-inner">
+		  	<div class="carousel-inner"> 
 		    <div class="carousel-item active">
-		        <img src="./imgs/imgfelice.jpg" class="d-block w-100" alt="felice">
+		        <img src="./imgs/imgfelice.jpg" class="d-block w-100" alt="felice" onclick="window.location.href='felice.html'" >
 		        <div class="carousel-caption d-none d-md-block"> <h3>FELICE</h3> </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="./imgs/imgtriste.jpg" class="d-block w-100" alt="triste">
+		      <img src="./imgs/imgtriste.jpg" class="d-block w-100" alt="triste" onclick="window.location.href='triste.html'">
 		      <div class="carousel-caption d-none d-md-block"> <h3>TRISTE</h3> </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="./imgs/imgrilassato.jpg" class="d-block w-100" alt="rilassato">
+		      <img src="./imgs/imgrilassato.jpg" class="d-block w-100" alt="rilassato" onclick="window.location.href='rilassato.html'">
 		      <div class="carousel-caption d-none d-md-block"> <h3>RILASSATO</h3> </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="./imgs/imgconfuso.jpg" class="d-block w-100" alt="confuso">
+		      <img src="./imgs/imgconfuso.jpg" class="d-block w-100" alt="confuso" onclick="window.location.href='confuso.html'">
 		      <div class="carousel-caption d-none d-md-block"> <h3>CONFUSO</h3> </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="./imgs/imgeuforico.jpg" class="d-block w-100" alt="euforico">
+		      <img src="./imgs/imgeuforico.jpg" class="d-block w-100" alt="euforico" onclick="window.location.href='euforico.html'">
 		      <div class="carousel-caption d-none d-md-block"> <h3>EUFORICO</h3> </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="./imgs/imginnamorato.jpg" class="d-block w-100" alt="innamorato">
+		      <img src="./imgs/imginnamorato.jpg" class="d-block w-100" alt="innamorato" onclick="window.location.href='innamorato.html'">
 		      <div class="carousel-caption d-none d-md-block"> <h3>INNAMORATO</h3> </div>
 		    </div>
 		      </div>

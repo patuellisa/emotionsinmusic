@@ -3,7 +3,7 @@ body { background-color: lightpink; }
 html { scroll-behavior: smooth; }
 
 h1 { font-family: 'Koulen', cursive;
-	 color: whitesmoke;
+	 color: black;
 	 text-align: center;
 	 margin-top: 8%;
 	 letter-spacing: 2px;
@@ -14,7 +14,7 @@ h1 { font-family: 'Koulen', cursive;
 			height: 600px; }
 
 #arrow {margin: 0% 48%;
-		color: whitesmoke; 
+		color: black; 
 		font-size: 40px;
 		font-weight: bold;
 		text-shadow: 1px 1px;}
@@ -23,7 +23,7 @@ h1 { font-family: 'Koulen', cursive;
 #section2 { height: 450px; }
 
 h2 {text-align: center;
-	color: whitesmoke;
+	color: black;
 	margin-top: 8%;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 32px;
@@ -32,7 +32,7 @@ h2 {text-align: center;
  #nav { font-family: 'Koulen', cursive; 
  		 margin: auto;
  		 font-size: 30px;
- 		 color: whitesmoke;} 
+ 		 color: black;} 
 
 .buttonemoline1 { background-color: whitesmoke;
              font-size: 30px;
@@ -67,6 +67,7 @@ h2 {text-align: center;
   margin-top: 2%;
   width: 50%; }
 
-  h3 {color: whitesmoke;
-  	  font-family: 'Koulen', cursive;
+  h3 {font-family: 'Koulen', cursive;
       text-shadow: 1px;}
+
+.titolo { margin-top: 3%; }

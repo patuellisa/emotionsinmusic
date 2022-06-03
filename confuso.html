@@ -13,16 +13,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-	<title>homepage</title>
+	<title>playlist confuso</title>
 </head>
 <body>
 	<header>
 			<nav class="navbar navbar-expand-lg navbar-light bg-lightpink" style="background-color: lightpink;">
 			  <div class="container-md">	
-			    <div class="collapse navbar-collapse justify-content-left" id="navbarNav">
+			  	<p id="nav" onclick="window.location.href='index.html'" style="color:black;">emotions in music</p>
+			    <div class="collapse navbar-collapse justify-content-left" style="margin-left: 30px" id="navbarNav">
 			      <ul class="navbar-nav">
 			        <li class="nav-item">
-			          <a class="nav-link active custom_list_item span" aria-current="page" href="#">HOME</a>
+			          <a class="nav-link custom_list_item span"href="index.html">HOME</a>
 			        </li>
 			        <li class="nav-item">
 			          <a class="nav-link custom_list_item span" href="about.html">ABOUT</a>
@@ -34,42 +35,16 @@
 			    </div>
 			  </div>
 			</nav>
+			<nav aria-label="breadcrumb">
+		  		<ol class="breadcrumb justify-content-end" style="margin-right: 30px;">
+		    	<li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+		        <li class="breadcrumb-item"><a href="playlist.html">PLAYLIST</a></li>
+		        <li class="breadcrumb-item active" aria-current="page">CONFUSO</li>
+		 		</ol>
+			</nav>
 		</header>
-	<main>
-		<div class="main" id="section1">
-			<h1>EMOTIONS IN MUSIC</h1>
-			<h2>COME TI SENTI OGGI?</h2>
-			<a href="#section2" class="button-link">
-			  <span class="material-symbols-outlined" id="arrow">vertical_align_bottom</span>
-			</a>
-		</div>
-		<div class="main" id="section2">
-		  <div class="container">
-			<div class="row">
-				<div class="col">
-				  <button onclick="window.location.href='felice.html'" class="buttonemoline1">felice</button>
-				</div>
-				<div class="col">
-				  <button onclick="window.location.href='triste.html'" class="buttonemoline1">triste</button>
-				</div>
-				<div class="col">
-				  <button onclick="window.location.href='rilassato.html'" class="buttonemoline1">rilassato</button>
-				</div>
-		    </div>
-		  </div>  
-		  	<div class="row" style="margin: 1% 5% ;">
-			    <div class="col">
-			      <button onclick="window.location.href='confuso.html'" class="buttonemoline2">confuso</button>
-			    </div>
-			    <div class="col">
-			      <button onclick="window.location.href='euforico.html'" class="buttonemoline2">euforico</button> 
-			    </div>
-			    <div class="col">
-			      <button onclick="window.location.href='innamorato.html'" class="buttonemoline2">innamorato</button>
-			    </div>
-		    </div>
-	      </div>
-	    </div>
-	</main>
+	<h1 class="titolo" style="color:black;">CONFUSO</h1>
+	<div>
+		<iframe style="border-radius:12px; margin-left: 10px; margin-right: 20px; margin-top: 5px;" src="https://open.spotify.com/embed/playlist/3YxeF54o7Fthw7Gqmwghfh?utm_source=generator&theme=0" width="98%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+	</div>
 </body>
-</html>
