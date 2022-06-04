@@ -34,28 +34,25 @@ h2 {text-align: center;
  		 font-size: 30px;
  		 color: black;} 
 
-.buttonemoline1 { background-color: whitesmoke;
+.buttonemo { background-color: whitesmoke;
              font-size: 30px;
              border-radius: 24px;
              border: lightpink;
-         	 padding: 70px 65px;
+         	 padding: 70px 60px;
          	 width: 100%;
          	 font-family: 'Koulen', cursive;
          	 text-shadow: 1px;}
 .buttonemoline1:hover { box-shadow: 0 12px 8px 0 rgba(0,0,0,0.24), 0 17px 25px 0 rgba(0,0,0,0.19); 
 						transform: scale(1.15);}
 
-.buttonemoline2 { background-color: whitesmoke;
-             font-size: 30px;
-             border-radius: 24px;
-             border: lightpink;
-             padding: 70px 65px;
-         	 width: 100%;
-         	 margin-top: 10px;
-         	 font-family: 'Koulen', cursive;
-         	 text-shadow: 1px;}
-.buttonemoline2:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
-						transform: scale(1.15);}
+.grid-container { display: grid;
+  grid-template-columns: auto auto auto;}
+.grid-item { padding: 10px 10px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Koulen', cursive;
+  text-shadow: 1px;}
 
 #abstract { text-align: center;
 			margin: 5% 20%;
@@ -65,7 +62,8 @@ h2 {text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  width: 50%; 
+  height: 10%;
+  width: 80%;
   max-width: 100%;}
 
   h3 {font-family: 'Koulen', cursive;
@@ -73,5 +71,13 @@ h2 {text-align: center;
 
 .titolo { margin-top: 3%; }
 
-@media only screen (max-width:320px) { #section1 { background-color: lightpink;
-			height: 1000px; } };
+@media only screen and (max-width: 600px) {
+
+	h2 { margin-top: 12%; }
+	#arrow { display: none; }
+	#section1 { height: 450px; }
+	.buttonemoline1 { margin-top: 10px; }
+	.container-md { height:3.3rem; }
+	.grid-container {grid-template-columns: auto;}
+}
+
