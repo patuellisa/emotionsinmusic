@@ -65,9 +65,13 @@ h2 {text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  width: 50%; }
+  width: 50%; 
+  max-width: 100%;}
 
   h3 {font-family: 'Koulen', cursive;
       text-shadow: 1px;}
 
 .titolo { margin-top: 3%; }
+
+@media only screen (max-width:320px) { #section1 { background-color: lightpink;
+			height: 1000px; } };
