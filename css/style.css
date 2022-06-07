@@ -81,7 +81,9 @@ p { font-family: 'Merriweather', serif;
 	#section1 { height: 450px; }
 	.buttonemoline1 { margin-top: 5px; }
 	.container-md { height:3.0rem; }
-	.grid-container {grid-template-columns: auto;}
-	
+	.grid-container {grid-template-columns: auto; }
+	#abstract { text-align: justify;
+				font-size: 12px;}
+	.titolo { font-size: 90px; }	
 }
 
