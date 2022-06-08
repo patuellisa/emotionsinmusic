@@ -89,9 +89,8 @@ footer { text-align: center;
 					text-align: center; }
 	#abstract { text-align: justify;
 				font-size: 18px;}
-	.titolo { font-size: 90px;
-	          text-align: center; }	
-	#descrizione { color: blue; }
+	.titolo { font-size: 2.5em;
+	          text-align: center; }
 
 }
 
