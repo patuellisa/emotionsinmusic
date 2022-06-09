@@ -91,7 +91,10 @@ footer { text-align: center;
 				font-size: 18px;}
 	.titolo { font-size: 2.5em;
 	          text-align: center; }
-
+	.h1doc { text-align: center; }
+	.h2doc { text-align: center; }
+	.h3doc { text-align: center; }
+	.pdoc { text-align: center; }
 }
 
 .h1doc { font-family: 'Merriweather', serif;
